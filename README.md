@@ -21,20 +21,25 @@ Let's start with the basic markup
  
  # Steps
  ## Step 1
- Wrap your text("p","a" elements) with div.
+ Ad script tag inside head
+ ```
+ <script src="font-master.js"></script>
+ ```
  ## Step 2
+ Wrap your text("p","a" elements) with div.
+ ## Step 3
  Wrap your divs with
  ``` 
  <div id="master">
 Your divs
 </div>
 ```
-## Step 3
+## Step 4
 Set up width of your divs.
 For static efect use %, so font size will be same % for every screen. It will fit perfectly.
 For animation effect use px, it will help you to manipulate it easier.
 
-## Step 4
+## Step 5
 
 Have fun :D
 
@@ -42,3 +47,4 @@ Have fun :D
 # Updates will come soon, like:
 - multiplay lanes
 - overflow 
+- examples
