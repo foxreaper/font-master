@@ -91,7 +91,7 @@ var lett = pm[num].clientWidth;
 var final = Math.floor(lett / totalsize) ;
 pm[num].style.fontSize=final+"px";
 }
-setInterval(function(){alert()},100)
+setInterval(function(){master()},100)
 }
 
 
