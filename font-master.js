@@ -11,7 +11,7 @@ var d = document.getElementById("master");
 }
 
 
-function alert(){
+function master(){
 var pm = document.getElementById("master").querySelectorAll('div');
   var num ;
   for (num = 0; num < pm.length; num++){
@@ -87,7 +87,7 @@ var groupk = 94*(countW);
 var groupl = 28*(countspace);
 
 var totalsize = (groupa+groupb+groupc+groupd+groupe+groupf+groupg+grouph+groupi+groupj+groupk+groupl)/100;
-var lett = document.getElementById("master").clientWidth;
+var lett = pm[num].clientWidth;
 var final = Math.floor(lett / totalsize) ;
 pm[num].style.fontSize=final+"px";
 }
@@ -98,7 +98,7 @@ setInterval(function(){alert()},100)
 window.onload = function(){ 
   
   font();
-  alert();
+  master();
 
 
 }
