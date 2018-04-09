@@ -5,18 +5,21 @@ font-master.js is awesome JavaScript plugin. It makes font-sizes flexible. Use t
 
 # Examples
 ### Example 1
-https://codepen.io/codereaper/pen/QmGyjm
+https://codepen.io/codereaper/full/PRxOME/
+### Example 2
+https://codepen.io/codereaper/full/QmYLZj/
 
 # Usage
 Let's start with the basic markup
 ``` HTML
 <div id="master">   
   <div id="example1">some text </div>
+  <p>Example with paragraph</p>
     <div class= "example2"><p>some text<p></div>
       <div id="example3"><a href="#">some text</a></div>
   </div>
   ```
- There's only one thing that you need to do. Name your main div as "master" after that wrap your paragraph, span some text with div, you can add class or id to that.
+ There's only one thing that you need to do. Name your main div as "master" after that wrap your text with paragraph, span, div , you can add class or id to that.
  
  
  # Steps
@@ -26,18 +29,18 @@ Let's start with the basic markup
  <script src="font-master.js"></script>
  ```
  ## Step 2
- Wrap your text("p","a" elements) with div.
+ Wrap your text (with div, p, a ...).
  ## Step 3
  Wrap your divs with
  ``` 
  <div id="master">
-Your divs
+Your elements
 </div>
 ```
 ## Step 4
-Set up width of your divs.
+Set up width of your elements.
 For static efect use %, so font size will be same % for every screen. It will fit perfectly.
-For animation effect use px, it will help you to manipulate it easier.
+For animation effect use px or %, depends what you really need.
 
 ## Step 5
 
