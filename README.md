@@ -24,25 +24,29 @@ Let's start with the basic markup
  
  # Steps
  ## Step 1
+ Download script files keeping the name.
+ 
+ ## step 2
  Ad script tag inside head
  ```
  <script src="font-master.js"></script>
  ```
- ## Step 2
- Wrap your text (with div, p, a ...).
  ## Step 3
- Wrap your divs with
+ Wrap your text (with div, p, a ...).
+ 
+ ## Step 4
+ Wrap your elements  with master div
  ``` 
  <div id="master">
 Your elements
 </div>
 ```
-## Step 4
+## Step 5
 Set up width of your elements.
 For static efect use %, so font size will be same % for every screen. It will fit perfectly.
-For animation effect use px or %, depends what you really need.
+For animation effect use px or %, depends on your needs.
 
-## Step 5
+## Step 6
 
 Have fun :D
 
